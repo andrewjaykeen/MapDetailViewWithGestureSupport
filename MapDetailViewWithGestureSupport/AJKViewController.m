@@ -79,6 +79,10 @@
     {
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"MyDetailView" owner:self options:nil];
         self.detailView = (AJKDraggableDetailView *)[nib objectAtIndex:0];
+        
+        // start out with view completely hidden
+        self.detailView.frame = CGRectMake(0, self.view.frame.size.height+1, self.view.frame.size.width,self.view.frame.size.height);
+        
         [self.view addSubview:self.detailView];
     }
     

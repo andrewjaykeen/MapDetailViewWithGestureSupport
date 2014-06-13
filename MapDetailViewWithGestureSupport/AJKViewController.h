@@ -11,5 +11,4 @@
 
 @interface AJKViewController : UIViewController <MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
-- (void)adjustDetailView:(CGRect)frameRect;
 @end

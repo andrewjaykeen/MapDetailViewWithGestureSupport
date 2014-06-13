@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C23787F194B53AC00CFD7A5 /* AJKDraggableDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C23787E194B53AC00CFD7A5 /* AJKDraggableDetailView.m */; };
+		1C237881194B53B700CFD7A5 /* MyDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C237880194B53B700CFD7A5 /* MyDetailView.xib */; };
 		1CEB7DD519480ECA00B9ABD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEB7DD419480ECA00B9ABD4 /* Foundation.framework */; };
 		1CEB7DD719480ECA00B9ABD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEB7DD619480ECA00B9ABD4 /* CoreGraphics.framework */; };
 		1CEB7DD919480ECA00B9ABD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEB7DD819480ECA00B9ABD4 /* UIKit.framework */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C23787D194B53AC00CFD7A5 /* AJKDraggableDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJKDraggableDetailView.h; sourceTree = "<group>"; };
+		1C23787E194B53AC00CFD7A5 /* AJKDraggableDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJKDraggableDetailView.m; sourceTree = "<group>"; };
+		1C237880194B53B700CFD7A5 /* MyDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyDetailView.xib; sourceTree = "<group>"; };
 		1CEB7DD119480ECA00B9ABD4 /* MapDetailViewWithGestureSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDetailViewWithGestureSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CEB7DD419480ECA00B9ABD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CEB7DD619480ECA00B9ABD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +121,9 @@
 		1CEB7DDA19480ECA00B9ABD4 /* MapDetailViewWithGestureSupport */ = {
 			isa = PBXGroup;
 			children = (
+				1C237880194B53B700CFD7A5 /* MyDetailView.xib */,
+				1C23787D194B53AC00CFD7A5 /* AJKDraggableDetailView.h */,
+				1C23787E194B53AC00CFD7A5 /* AJKDraggableDetailView.m */,
 				1CEB7DE319480ECA00B9ABD4 /* AJKAppDelegate.h */,
 				1CEB7DE419480ECA00B9ABD4 /* AJKAppDelegate.m */,
 				1CEB7DE619480ECA00B9ABD4 /* Main.storyboard */,
@@ -234,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CEB7DED19480ECA00B9ABD4 /* Images.xcassets in Resources */,
+				1C237881194B53B700CFD7A5 /* MyDetailView.xib in Resources */,
 				1CEB7DDF19480ECA00B9ABD4 /* InfoPlist.strings in Resources */,
 				1CEB7DE819480ECA00B9ABD4 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C23787F194B53AC00CFD7A5 /* AJKDraggableDetailView.m in Sources */,
 				1CEB7DE119480ECA00B9ABD4 /* main.m in Sources */,
 				1CEB7DE519480ECA00B9ABD4 /* AJKAppDelegate.m in Sources */,
 				1CEB7DEB19480ECA00B9ABD4 /* AJKViewController.m in Sources */,
